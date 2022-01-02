@@ -4,10 +4,10 @@
   <img alt="search app" title="search app" src="https://ik.imagekit.io/Nscmnt/Projects/search_RRnTc2eSk.gif?updatedAt=1641137888760" />
 </h1>
 
-<p align="center">App Search para buscar fogões...
+<p align="center"> Search é um app para buscar modelos de fogões, disponibilizando uma lista com modelos baseado em marca, modelo ou caracterísca do produto.
 </p>
 
-<p align ="center">Live: </p>
+<p align ="center">Live: https://search-iota.vercel.app/ </p>
 
 <p align = "center">
   <a href="#pre"> Pré-requisito </a> •
