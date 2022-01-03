@@ -1,6 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
+:root {
+  --toastify-color-dark: #232129;
+  --toastify-color-progress-info: #FF9000;
+
+}
 *{
     margin: 0;
     padding: 0;

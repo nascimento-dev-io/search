@@ -8,22 +8,41 @@ export const Container = styled.div`
   align-items: center;
   flex-wrap: wrap;
 
-a {
-  display: block;
-  width: 700px;
-  padding: 32px;
+  div{
+    width: 700px ;
+    color: #F4EDE8;
+    background: #232129;
 
-  margin:20px;
+    display: flex;
+    justify-content: space-between;
 
-  border-radius: 10px;
+    padding: 16px;
+    margin:20px;
 
-  text-decoration:none;
+    border-radius: 10px;
 
-  color: #F4EDE8;
-  background: #232129;
+    a {
+      display: block;
+      padding: 32px;  
 
-  font-size:18px;
-  text-align: center;
+      text-decoration:none;
+
+      color: #F4EDE8;
+      background: #232129;
+
+      font-size:18px;
+      text-align: center;
+   }
+
+   svg {
+     cursor: pointer;
+
+     &:active {
+       transform: scale(.9);
+     }
+   }
 }
+
+
 
 `
