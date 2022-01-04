@@ -40,7 +40,10 @@ const StoveCard = ({result}) => {
         <div key={index}>        
           <a  href={`https://www.google.com.br/search?q=${stove}`} 
           target="_blank" rel="noreferrer">{stove}</a>
-          <FiCopy size={25} onClick={() => copyStoveName(stove)}/>
+          <span onClick={() => copyStoveName(stove)}>
+            copy
+          <FiCopy size={20}/>
+          </span>
         </div>
       ))}
     </Container>

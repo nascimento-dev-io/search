@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {shade} from 'polished'
 
 export const Container = styled.div`
   width: 100%;
@@ -34,13 +35,29 @@ export const Container = styled.div`
       text-align: center;
    }
 
-   svg {
-     cursor: pointer;
+   span {
+     display: flex;
+     align-self: flex-start;
+     
+
+     padding: 5px 10px;
+     border-radius: 5px;
+
+     background-color: ${shade(0.1, '#232129')};
+
+    cursor: pointer;
 
      &:active {
        transform: scale(.9);
-     }
+      }
+
+      svg {    
+        margin-left: 5px;
+      }
+
    }
+
+   
 }
 
 
