@@ -31,7 +31,9 @@ const Searching = () => {
     setSearchInput('')
     setStoveResult([])  
     
-    const stovesFiltered = stoves.filter(stove => stove.toUpperCase().includes(searchInput)) 
+    const stovesFiltered = stoves.filter(stove => stove.toUpperCase()
+      .trim()
+      .includes(searchInput.trim())) 
 
     if(stovesFiltered <= 0){
       setNotFound("Fogão não encontrado.");
@@ -44,7 +46,7 @@ const Searching = () => {
   return (
     <Container>
       <header>
-      <h1>Search</h1> 
+      <h1>Search </h1> 
       <img src={stoveImg} alt='logo stove'></img>
       </header>
       <form onSubmit={handleSubmit}>

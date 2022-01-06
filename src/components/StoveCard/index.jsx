@@ -10,7 +10,7 @@ const StoveCard = ({result}) => {
   function copyStoveName(stoveName){
     navigator.clipboard.writeText(stoveName);
 
-    toast.info('Modelo copiado!', {
+    toast.info(`Modelo copiado!`, {
       position: "top-right",
       autoClose: 3000,
       hideProgressBar: false,
@@ -25,7 +25,7 @@ const StoveCard = ({result}) => {
     <>
     <ToastContainer
       position="top-right"
-      autoClose={5000}
+      autoClose={3000}
       hideProgressBar={false}
       newestOnTop={false}
       theme='dark'
